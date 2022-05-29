@@ -2,7 +2,7 @@ from PySide2.QtWidgets import QMessageBox
 from mocha.project import get_current_project
 
 
-class ShadeMattesByOrder():
+class ShadeMattesByOrder:
     def __init__(self, parent=None):
         self.proj = get_current_project()
 

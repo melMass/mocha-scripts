@@ -3,7 +3,7 @@ from random import random
 from mocha.project import get_current_project
 
 
-class RandomiseColours():
+class RandomiseColours:
     def __init__(self, parent=None):
         self.proj = get_current_project()
 
